@@ -1,0 +1,21 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.0",
+    "stylelint": "^14.14.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  }
+}
