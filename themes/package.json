@@ -7,7 +7,10 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass gais/scss/style.scss gais/css/style.css --no-source-map",
+    "style-min": "sass gais/scss/style.scss gais/css/style.min.css --no-source-map --style compressed"  
   },
   "keywords": [],
   "author": "",
