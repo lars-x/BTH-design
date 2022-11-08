@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: Hem
 Description: This is our index page.
 ---
 
@@ -15,4 +15,4 @@ När jag är klar med kurspaketet hoppas jag kunna bygga något liknade [MarineT
 
 Vidare brukar jag alltid skjuta upp saker till sista minuten, men inte med den här kursen...
 
-![Tux, the Linux mascot](image/me.jpg)
+![Jag](image/me.jpg)

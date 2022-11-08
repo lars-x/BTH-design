@@ -7,9 +7,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
-@import 'blockquote';
-@import 'code';
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
@@ -18,14 +15,28 @@ body {
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: $font-color;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans', sans-serif;
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
 }
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+@import 'typografy';
+@import 'placement';
+@import 'header';
+@import 'title';
+@import 'footer';
+@import 'blockquote';
+@import 'code';

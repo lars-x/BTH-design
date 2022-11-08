@@ -6422,6 +6422,133 @@ template {
   display: none;
 }
 
+body {
+  background-color: #fff;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Typografy */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  color: #000;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.6em;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Placement */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+/* Header */
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Title */
+.title,
+.logo {
+  padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    max-width: 30%;
+  }
+}
+.title * {
+  color: #111;
+}
+
+.title p {
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
 /* Blockquote */
 blockquote {
   font-style: italic;
@@ -6457,22 +6584,4 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
-}
-
-body {
-  background-color: #fff;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-  color: #000;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
 }
