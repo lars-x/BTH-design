@@ -4,8 +4,8 @@ Tagline: Heja Gais!
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/lars-x/BTH-design
-      icon: github
+      icon: fab fa-github
     - title: Sidan är en del av kursen design.
       url: https://dbwebb.se/kurser/design-v3
-      icon: leaf
+      icon: fab fa-canadian-maple-leaf
 ---
