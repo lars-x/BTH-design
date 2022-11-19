@@ -1,7 +1,7 @@
 /* technology */
 
 .landingpage {
-    margin: auto;
+    margin: 0 auto 1rem auto;
     width: 90%;
     max-width: 1200px;
 
@@ -35,6 +35,10 @@
     font-size: 1.25rem;
     padding: 1rem;
     border-radius: 0.5rem;
+}
+
+.child-common:hover {
+    box-shadow: 5px 5px 5px 5px blue;
 }
 
 .no-link {

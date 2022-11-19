@@ -9,37 +9,37 @@ Template: technologies
 <h2>Teknologier</h2>
 </div>
 
-<div class="css child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://sunet.se/">CSS</a></h2>
+<div class="css child-common" onclick="location.href='./technology/css';">
+<h2><a class="no-link" href="./technology/css">CSS</a></h2>
 <p>Cascading Style Sheets</p>
 </div>
 
-<div class="htm child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://xsunet.se/">HTML</a></h2>
+<div class="htm child-common" onclick="location.href='./technology/html';">
+<h2><a class="no-link" href="./technology/html">HTML</a></h2>
 <p>HyperText Markup Language</p>
 </div>
 
-<div class="jav child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://xsunet.se/">Javascript</a></h2>
+<div class="jav child-common" onclick="location.href='./technology/javascript';">
+<h2><a class="no-link" href="./technology/javascript">Javascript</a></h2>
 <p>Skrives JavaScript och förkortat JS</p>
 </div>
 
-<div class="php child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://sunet.se/">PHP</a></h2>
+<div class="php child-common" onclick="location.href='./technology/php';">
+<h2><a class="no-link" href="./technology/php">PHP</a></h2>
 <p>Rekursiv akronym</p>
 </div>
 
-<div class="pyt child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://sunet.se/">Python </a></h2>
+<div class="pyt child-common" onclick="location.href='./technology/python';">
+<h2><a class="no-link" href="./technology/python">Python </a></h2>
 <p>Uppfanns anno 1991 av Guido van Rossum</p>
 </div>
 
-<div class="git child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://sunet.se/">Git</a></h2>
+<div class="git child-common" onclick="location.href='./technology/git';">
+<h2><a class="no-link" href="./technology/git">Git</a></h2>
 <p>Uppfanns anno 2005 av Linus Torvalds</p>
 </div>
 
-<div class="sql child-common" onclick="location.href='https://sunet.se/';">
-<h2><a class="no-link" href="https://sunet.se/">SQLite</a></h2>
+<div class="sql child-common" onclick="location.href='./technology/sqlite';">
+<h2><a class="no-link" href="./technology/sqlite">SQLite</a></h2>
 <p>Uppfanns anno 2000 av D. Richard Hipp</p>
 </div>
