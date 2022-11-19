@@ -4,7 +4,7 @@
 	{% include 'incl/nav.twig' %}
 
 	<div class="main tech-article" role="main">
-		<aside class="aside">
+		<aside class="aside child-common">
 			<h2>Genvägar:</h2>
 			<ul>
 				{% for page in pages("technology") %}
@@ -15,7 +15,7 @@
 			</ul>
 		</aside>
 
-		<article class="article">
+		<article class="article child-common">
 			{{ content }}
 		</article>
 	</div>

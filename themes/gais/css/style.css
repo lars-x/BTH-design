@@ -6588,7 +6588,7 @@ pre code {
 
 /* technology */
 .landingpage {
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1rem;
   width: 90%;
   max-width: 1200px;
   display: grid;
@@ -6603,68 +6603,110 @@ pre code {
   }
 }
 .child-common {
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   font-size: 1.25rem;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-.child-common:hover {
-  box-shadow: 5px 5px 5px 5px blue;
+.box-shadow:hover {
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 255);
 }
 
 .no-link {
   color: inherit;
   /*     text-decoration:none;
-      pointer-events:none;
-   */
+     pointer-events:none;
+  */
 }
 
 .tec {
   grid-area: tec;
-  color: black;
-  background: white;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   text-align: center;
+}
+
+.tec p {
+  text-align: center;
+  font-style: italic;
 }
 
 .css {
   grid-area: css;
-  color: white;
-  background: blueviolet;
+  color: rgb(255, 255, 255);
+  background: rgb(138, 43, 226);
 }
 
 .htm {
   grid-area: htm;
-  color: white;
+  color: rgb(255, 255, 255);
   background: rgb(72, 85, 106);
 }
 
 .jav {
   grid-area: jav;
-  color: black;
-  background: white;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 .php {
   grid-area: php;
-  color: white;
+  color: rgb(255, 255, 255);
   background: rgb(25, 33, 46);
 }
 
 .pyt {
   grid-area: pyt;
-  color: white;
-  background: blueviolet;
+  color: rgb(255, 255, 255);
+  background: rgb(138, 43, 226);
 }
 
 .git {
   grid-area: git;
-  color: white;
+  color: rgb(255, 255, 255);
   background: rgb(25, 33, 46);
 }
 
 .sql {
   grid-area: sql;
-  color: black;
-  background: white;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.tech-article {
+  margin: 0 auto 1rem;
+  width: 90%;
+  max-width: 1000px;
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 200px 1fr;
+  grid-template-areas: "aside article";
+}
+
+@media screen and (max-width: 767px) {
+  .tech-article {
+    grid-auto-columns: auto;
+    grid-template-areas: "article";
+  }
+  .aside {
+    display: none;
+  }
+}
+.aside {
+  grid-area: aside;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  grid-area: article;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
