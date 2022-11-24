@@ -1,24 +1,30 @@
 {
-  "name": "themes",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint \"**/*.scss\"",
-    "style": "sass gais/scss/style.scss gais/css/style.css --no-source-map",
-    "style-min": "sass gais/scss/style.scss gais/css/style.min.css --no-source-map --style compressed"  
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "normalize.css": "^8.0.1",
-    "sass": "^1.56.0",
-    "stylelint": "^14.14.1",
-    "stylelint-config-sass-guidelines": "^9.0.1"
-  }
+    "name": "themes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "example": "example"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "stylelint \"**/*.scss\"",
+        "watch": "sass gais/scss/style.scss:gais/css/style.css gais/scss/style-dark.scss:gais/css/style-dark.css --no-source-map --watch",
+        "watch-min": "sass gais/scss/style.scss:gais/css/style.min.css gais/scss/style-dark.scss:gais/css/style-dark.min.css --no-source-map --watch --style compressed",
+        "style": "npm run style-light && npm run style-dark",
+        "style-min": "npm run style-light-min && npm run style-dark-min",
+        "style-dark": "sass gais/scss/style-dark.scss gais/css/style-dark.css --no-source-map",
+        "style-dark-min": "sass gais/scss/style-dark.scss gais/css/style-dark.min.css --no-source-map --style compressed",
+        "style-light": "sass gais/scss/style.scss gais/css/style.css --no-source-map",
+        "style-light-min": "sass gais/scss/style.scss gais/css/style.min.css --no-source-map --style compressed"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "normalize.css": "^8.0.1",
+        "sass": "^1.56.0",
+        "stylelint": "^14.14.1",
+        "stylelint-config-sass-guidelines": "^9.0.1"
+    }
 }
