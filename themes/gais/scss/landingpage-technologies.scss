@@ -1,0 +1,73 @@
+/* landingpage-technologies */
+
+.landingpage-technologies {
+    margin: 0 auto 1rem;
+    width: 90%;
+    max-width: 1200px;
+
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+    'hed hed hed'
+    'css htm htm'
+    'jav jav php'
+    'pyt pyt pyt'
+    'git sql sql';
+}
+
+@media screen and (max-width: 767px) {
+    .landingpage-technologies {
+        grid-template-areas:
+        'hed'
+        'css'
+        'htm'
+        'jav'
+        'php'
+        'pyt'
+        'git'
+        'sql';
+    }
+}
+
+.css {
+    grid-area: css;
+    color: rgb(255, 255, 255);
+    background: rgb(138, 43, 226);
+}
+
+.htm {
+    grid-area: htm;
+    color: rgb(255, 255, 255);
+    background: rgb(72, 85, 106);
+}
+
+.jav {
+    grid-area: jav;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.php {
+    grid-area: php;
+    color: rgb(255, 255, 255);
+    background: rgb(25, 33, 46);
+}
+
+.pyt {
+    grid-area: pyt;
+    color: rgb(255, 255, 255);
+    background: rgb(138, 43, 226);
+}
+
+.git {
+    grid-area: git;
+    color: rgb(255, 255, 255);
+    background: rgb(25, 33, 46);
+}
+
+.sql {
+    grid-area: sql;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}

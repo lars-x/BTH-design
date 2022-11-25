@@ -40,7 +40,10 @@ body {
 @import 'footer';
 @import 'blockquote';
 @import 'code';
-@import 'technology';
+@import 'landingpage-technologies';
+@import 'landingpage-reports';
+@import 'landingpage-common';
+@import 'article';
 
 /* Längst ner i min style-dark.scss */
 .main {

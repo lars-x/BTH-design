@@ -1,0 +1,44 @@
+/* landingpage-reports */
+
+.landingpage-reports {
+    margin: 0 auto 1rem;
+    width: 90%;
+    max-width: 1200px;
+
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+    'hed hed hed'
+    'km4 km4 km4'
+    'km5 km5 km5'
+    'km6 km6 km6';
+}
+
+@media screen and (max-width: 767px) {
+    .landingpage-reports {
+        grid-template-areas:
+        'hed'
+        'km4'
+        'km5'
+        'km6';
+    }
+}
+
+.km4 {
+    grid-area: km4;
+    color: rgb(255, 255, 255);
+    background: rgb(138, 43, 226);
+}
+
+.km5 {
+    grid-area: km5;
+    color: rgb(255, 255, 255);
+    background: rgb(72, 85, 106);
+}
+
+.km6 {
+    grid-area: km6;
+    color: rgb(255, 255, 255);
+    background: rgb(25, 33, 46);
+}

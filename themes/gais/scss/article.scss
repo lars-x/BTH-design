@@ -1,0 +1,41 @@
+/* aricle */
+
+.article-container {
+    margin: 0 auto 1rem;
+    width: 90%;
+    max-width: 1000px;
+
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 200px 1fr;
+    grid-template-areas: 'aside article';
+}
+
+@media screen and (max-width: 767px) {
+    .article-container {
+        grid-auto-columns: auto;
+        grid-template-areas: 'article';
+    }
+
+    .aside {
+        display: none;
+    }
+}
+
+.aside {
+    grid-area: aside;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    grid-area: article;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}

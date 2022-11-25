@@ -6587,52 +6587,22 @@ pre code {
   line-height: 1.4;
 }
 
-/* technology */
-.landingpage {
+/* landingpage-technologies */
+.landingpage-technologies {
   margin: 0 auto 1rem;
   width: 90%;
   max-width: 1200px;
   display: grid;
   gap: 1rem;
   grid-auto-columns: 1fr;
-  grid-template-areas: "tec tec tec" "css htm htm" "jav jav php" "pyt pyt pyt" "git sql sql";
+  grid-template-areas: "hed hed hed" "css htm htm" "jav jav php" "pyt pyt pyt" "git sql sql";
 }
 
 @media screen and (max-width: 767px) {
-  .landingpage {
-    grid-template-areas: "tec" "css" "htm" "jav" "php" "pyt" "git" "sql";
+  .landingpage-technologies {
+    grid-template-areas: "hed" "css" "htm" "jav" "php" "pyt" "git" "sql";
   }
 }
-.child-common {
-  border: 2px solid rgb(0, 0, 0);
-  font-size: 1.25rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-.box-shadow:hover {
-  box-shadow: 5px 5px 5px 5px rgb(0, 0, 255);
-}
-
-.no-link {
-  color: inherit;
-  /*     text-decoration:none;
-     pointer-events:none;
-  */
-}
-
-.tec {
-  grid-area: tec;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  text-align: center;
-}
-
-.tec p {
-  text-align: center;
-  font-style: italic;
-}
-
 .css {
   grid-area: css;
   color: rgb(255, 255, 255);
@@ -6675,7 +6645,73 @@ pre code {
   background: rgb(255, 255, 255);
 }
 
-.tech-article {
+/* landingpage-reports */
+.landingpage-reports {
+  margin: 0 auto 1rem;
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "hed hed hed" "km4 km4 km4" "km5 km5 km5" "km6 km6 km6";
+}
+
+@media screen and (max-width: 767px) {
+  .landingpage-reports {
+    grid-template-areas: "hed" "km4" "km5" "km6";
+  }
+}
+.km4 {
+  grid-area: km4;
+  color: rgb(255, 255, 255);
+  background: rgb(138, 43, 226);
+}
+
+.km5 {
+  grid-area: km5;
+  color: rgb(255, 255, 255);
+  background: rgb(72, 85, 106);
+}
+
+.km6 {
+  grid-area: km6;
+  color: rgb(255, 255, 255);
+  background: rgb(25, 33, 46);
+}
+
+/* landingpage-common */
+.child-common {
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.box-shadow:hover {
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 255);
+}
+
+.no-link {
+  color: inherit;
+  /*     text-decoration:none;
+     pointer-events:none;
+  */
+}
+
+.hed {
+  grid-area: hed;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.hed p {
+  text-align: center;
+  font-style: italic;
+}
+
+/* aricle */
+.article-container {
   margin: 0 auto 1rem;
   width: 90%;
   max-width: 1000px;
@@ -6686,7 +6722,7 @@ pre code {
 }
 
 @media screen and (max-width: 767px) {
-  .tech-article {
+  .article-container {
     grid-auto-columns: auto;
     grid-template-areas: "article";
   }

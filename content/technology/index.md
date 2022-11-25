@@ -4,7 +4,7 @@ Description: kmom03
 Template: technologies
 ---
 
-<div class="tec child-common">
+<div class="hed child-common">
 <h2>Teknologier</h2>
 <p>Klicka på en ruta nedan för ytterligare information</p>
 </div>
