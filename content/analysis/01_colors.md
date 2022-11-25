@@ -37,4 +37,4 @@ Ange de eventuella referenser du använder dig av, om några.
 Övrigt
 -----------------------
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Jag, Lars Johansson,  jobbade enskilt.
