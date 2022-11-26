@@ -3,7 +3,7 @@ Title: Hem
 Description: This is our index page.
 ---
 
-# En presentation av mig själv, om mig sjä
+# En presentation av mig själv, om mig själv
 
 ***Heja Gais!***
 

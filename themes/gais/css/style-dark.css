@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6424,7 +6423,7 @@ template {
 }
 
 body {
-  background-color: #fff;
+  background-color: #000;
 }
 
 * {
@@ -6451,7 +6450,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
-  color: #000;
+  color: rgb(255, 255, 148);
 }
 
 p,
@@ -6528,7 +6527,7 @@ body {
   }
 }
 .title * {
-  color: #111;
+  color: rgb(242, 184, 77);
 }
 
 .title p {
@@ -6762,9 +6761,4 @@ th {
 .article td:nth-child(1),
 th:nth-child(1) {
   text-align: left;
-}
-
-/* Längst ner i min style-dark.scss */
-.main {
-  background-color: rgb(255, 255, 0);
 }
