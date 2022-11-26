@@ -6422,6 +6422,59 @@ template {
   display: none;
 }
 
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  color: rgb(242, 184, 77);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
 body {
   background-color: #000;
 }
@@ -6563,7 +6616,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #333;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6573,7 +6626,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #333;
 }
 
 pre code {
@@ -6731,8 +6784,8 @@ pre code {
 }
 .aside {
   grid-area: aside;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 148);
+  background: #000;
 }
 
 .aside ul {
@@ -6743,8 +6796,8 @@ pre code {
 
 .article {
   grid-area: article;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 148);
+  background: #000;
 }
 
 .article table {

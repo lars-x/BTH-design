@@ -9,6 +9,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
+@import 'mobile-menu';
+
 body {
     background-color: $background-color;
 }

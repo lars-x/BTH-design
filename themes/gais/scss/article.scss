@@ -24,8 +24,8 @@
 
 .aside {
     grid-area: aside;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    color: $font-color;
+    background: $background-color;
 }
 
 .aside ul {
@@ -36,8 +36,8 @@
 
 .article {
     grid-area: article;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    color: $font-color;
+    background: $background-color;
 }
 
 .article table {
