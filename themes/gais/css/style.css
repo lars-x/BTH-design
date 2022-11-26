@@ -6746,3 +6746,19 @@ pre code {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
 }
+
+.article table {
+  border-collapse: collapse;
+}
+
+.article td,
+th {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4px;
+}
+
+.article td:nth-child(1),
+th:nth-child(1) {
+  text-align: left;
+}

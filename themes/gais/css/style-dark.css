@@ -6748,7 +6748,23 @@ pre code {
   background: rgb(255, 255, 255);
 }
 
+.article table {
+  border-collapse: collapse;
+}
+
+.article td,
+th {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4px;
+}
+
+.article td:nth-child(1),
+th:nth-child(1) {
+  text-align: left;
+}
+
 /* Längst ner i min style-dark.scss */
 .main {
-  background-color: yellow;
+  background-color: rgb(255, 255, 0);
 }
