@@ -29,6 +29,13 @@
     }
 }
 
+.gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%;  */
+  }
+
 .p1 {
     grid-area: p1;
 }
@@ -62,5 +69,5 @@
 }
 
 .p9 {
-    grid-area: p98;
+    grid-area: p9;
 }

@@ -6832,6 +6832,13 @@ th:nth-child(1) {
     grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8" "p9";
   }
 }
+.gallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%;  */
+}
+
 .p1 {
   grid-area: p1;
 }
@@ -6865,12 +6872,12 @@ th:nth-child(1) {
 }
 
 .p9 {
-  grid-area: p98;
+  grid-area: p9;
 }
 
 .embed-container {
   position: relative;
-  padding-bottom: 42.5%;
+  padding-bottom: 42.5%; /* 272/640 */
   height: 0;
   overflow: hidden;
   max-width: 100%;
