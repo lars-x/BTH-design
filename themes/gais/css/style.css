@@ -6836,7 +6836,6 @@ th:nth-child(1) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 100%;  */
 }
 
 .p1 {
@@ -6877,7 +6876,8 @@ th:nth-child(1) {
 
 .embed-container {
   position: relative;
-  padding-bottom: 42.5%; /* 272/640 */
+  /* 272/640 */
+  padding-bottom: 42.5%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
