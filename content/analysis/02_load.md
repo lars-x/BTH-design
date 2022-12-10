@@ -12,11 +12,11 @@ Den här rapporten utvärderar tre sidor på var och en av tre webbplatser med a
 Urval
 -----------------------
 
-Jag ville främst analysera laddningstiden för bilders olika storlekar. Jag valde därför att jämföra "Galleriet" i kmom05 på kursens webbplats (kallas A nedan) med en extrasida "Galleri XL". Skillnaden är att det är betydligt större bilder som laddas på "Galleri XL"-sidan.
+Jag ville främst analysera laddningstiden för bilders olika storlekar. Jag valde därför att jämföra "Galleriet" (A1 nedan) på den här webbplatsen (kallas A nedan) med en extrasida "Galleri XL" (A2). Skillnaden är att det är betydligt större bilder som laddas på "Galleri XL"-sidan.
 
-Dessutom valde jag att jämföra med "Galleriet" för mitt projekt för den tidigare kursen Webbteknologier (B).
+Dessutom valde jag att jämföra med "Galleriet" (B1 nedan) för mitt projekt för den tidigare kursen Webbteknologier (B).
 
-Som tredje webbplats valde jag mina github-pages (C). Jag konvertade projektets galleri till en statisk sida (C1).
+Som tredje webbplats valde jag mina github-pages (C). Jag konvertade projektets galleri (B1) till en statisk sida (C1).
 
 På github-pages valde jag också att mäta laddningstiden för en stor tabell (C2) och en mycket stor tabell (C3).
 
