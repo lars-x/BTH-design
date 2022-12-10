@@ -15,7 +15,7 @@ Template: reports
 </div>
 
 <div class="km5 child-common box-shadow" onclick="location.href='./analysis/02_load';">
-<h2><a class="no-link" href="./analysis/02_load">Bilder</a></h2>
+<h2><a class="no-link" href="./analysis/02_load">Bilder: laddningstid och användbarhet</a></h2>
 <p>Kmom05: Bilder</p>
 </div>
 
