@@ -1,0 +1,29 @@
+.rounded-rect {
+    margin: 0 auto 1rem;
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.rounded-rect img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title h1 {
+    color: $h1234-color;
+}
+
+.rounded-rect h1,
+.rounded-rect h2,
+.rounded-rect h3,
+.rounded-rect h4,
+.aside h2,
+.article h1,
+.article h2,
+.article h3 {
+    color: $h1234-color;
+}
