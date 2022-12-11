@@ -21,7 +21,7 @@ Som tredje webbplats valde jag mina github-pages (C). Jag konvertade projektets 
 På github-pages valde jag också att mäta laddningstiden för en stor tabell (C2) och en mycket stor tabell (C3).
 
 Slutligen fyllde jag ut med några små sidor som "baseline" (A3), (B2) och (B3).
-#### Sammanställning av de nio sidorna på de tre webbplatserna A, B & C:
+### Sammanställning av de nio sidorna på de tre webbplatserna A, B & C:
 
 <div class="kmom05">
     <table>
@@ -93,10 +93,10 @@ För att samla upp och sammanställa mätdata har jag använt mig av **Excel**, 
 
 Resultat
 -----------------------
-#### Sammanställning av mätvärden för de nio sidorna på de tre webbplatserna A, B & C:
+### Sammanställning av mätvärden för de nio sidorna på de tre webbplatserna A, B & C:
 
 <div>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRRQr6MSpSUcuP7HMzfoZBA2Jml_yAfWCZ9q-Grs14b4krHtyw62x7o8h5Si9HsGA/pubhtml?widget=true&amp;headers=false" width="100%" height="450"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRRQr6MSpSUcuP7HMzfoZBA2Jml_yAfWCZ9q-Grs14b4krHtyw62x7o8h5Si9HsGA/pubhtml?widget=true&amp;headers=false" width="100%" height="450" title="Sammanställning av mätvärden"></iframe>
 </div>
 
 Analys
