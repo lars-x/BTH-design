@@ -9,7 +9,7 @@ Tillgänglighet och prestanda
 
 Denna rapport analyserar tre olika webbplatser inom gruppen personsidor (portfolio/me-sida/blogg eller liknande).
 
-För dessa sidor försöker jag identifiera om de använder sig utav några designprinciper jag känner till, samt om jag finner något annat tongivande för designen i deras webbplats.
+För dessa sidor försöker jag identifiera om de använder sig utav några designprinciper jag känner till, samt om jag finner något annat tongivande för designen på deras webbplats.
 
 Jag gör även samma analys på min egen portfolio-sida och jämför vad det finns för skillnader mellan min egen sida och de undersökta.
 
@@ -33,7 +33,7 @@ Metod
 
 Det enda "verktyget" jag har använt mig av är senaste versionen av **Firefox** för **Windows 10**. Förutom att "titta på och uppleva" personsidorna, "tittar" jag också på HTML-koden med hjälp av "View Page Source".
 
-De enda designprinciper jag tror mig känna till hjälpligt är de 20 som beskrivs på [“Design Elements & Principles”](https://www.canva.com/learn/design-elements-principles/). Det är därför dessa 20 jag studerar.
+De enda designprinciper jag tror mig känna till hjälpligt är de 20 som beskrivs på [“Design Elements & Principles”](https://www.canva.com/learn/design-elements-principles/). Det är därför dessa 20 jag studerar. Designprinciper är markerade med **fetstil** nedan.
 
 Resultat
 -----------------------
@@ -44,7 +44,7 @@ Sidan är skriven mer formellt än en typisk Wikipedia-artikel: "Sir Tim Berners
 
 Förutom en kort biografi, innehåller sidan också kontaktuppgifter. Troligen kan Sir Tim dra in bra med pengar genom att extraknäcka som keynote-speaker.
 
-Webbsidans design är urtypen för en IT-legends webbsida. Enkel design, på gränsen till minimalistisk. Inga filmer eller musik som startar automatiskt. Inga färger, förutom standardfärger för länkar.
+Webbsidans design är urtypen för en IT-legends webbsida. Enkel design, på gränsen till minimalistisk. Inga filmer eller musik som startar automatiskt. **Inga färger**, förutom standardfärger för länkar. Detta gör att **kontrasten** är väldigt god.
 
 Det enda som inte är enkel, reserverad design är headern som består av tre kolumner. Headern är närmast bombastisk jämfört med resten av sidan. Headern är en **table** med "underliga" **th:s**. Detta gör att texten "Contents" i tabellen ser ut att sväva i luften.
 
@@ -56,7 +56,7 @@ Typsnittet är **serif** både för rubriker och brödtext.
 
 En stor del av sidan består av listor med länkar.
 
-Det finns några "stora vita fält" med ojämn rytm mellan "textfälten".
+Det finns några **negativa utrymmen** ("stora vita fält") med ojämn rytm mellan "textfälten".
 
 Det finns förvånansvärt många döda länkar, t.ex: länkarna till "data", "(Longer biography)" och "disclaimer".
 
@@ -113,7 +113,7 @@ Helhetsintrycket är att sidan är en typisk bloggsida från tiden runt 2010, vi
 
 Typsnittet är **sans-serif** både för rubriker och brödtext.
 
-Linjer används betydligt mer än för de två tidigare beskrivna sidorna. Det saknas dock horisontella linjer mellan blogginläggen!
+**Linjer** används betydligt mer än för de två tidigare beskrivna sidorna. Det saknas dock horisontella linjer mellan blogginläggen!
 
 **Färg** används, t.ex. har headern en diskret bakgrundsfärg.
 
@@ -139,13 +139,13 @@ Det är Brendan Eich:s sida som står som inspiration för 96% av nedanstående 
 Syftet med den här portfolio-sidan är att fungera som mall för framtida projekt. Efter att ha studerat de tre sidorna, ser jag direkt några lågt hängande frukter för att förbättra sidan:
 
 1. Begränsa bredden på brödtexten vid breda skrivbord.
-2. Använda linjer mer, men använda rundade hörn för att göra sidan mindre "fyrkantig".
-3. Färga rubrikerna blå
-4. Låta rubrikerna komma närmare tillhörande brödtext, för att åstadkomma bättre rytm.
-5. Ha kvar sans-serif för rubriker, men ändra brödtexten till serif. Jag skjuter dock detta projekt på framtiden, eftersom jag behöver göra en utförlig usability-testning innan jag eventuellt byter.
+2. Använda linjer mer, men använda rundade hörn för att göra sidan mindre "fyrkantig". Detta medför en fin **inramning**.
+3. **Färga** rubrikerna blå
+4. Låta rubrikerna komma närmare tillhörande brödtext, för att åstadkomma bättre rytm (**komposition**).
+5. Ha kvar sans-serif för rubriker, men ändra brödtexten till serif. Jag skjuter dock detta projekt på framtiden, eftersom jag behöver göra en utförlig usability-testning av **tyografin** innan jag eventuellt byter.
 6. Vänsterjustera brödtexten. För närvarande är den "text-align: justify", vilket jag inte har lagt märke till förut. Men nu när jag ser det, ser det inte alls bra ut.
 7. Öka några utvalda vita mellanrums area för att försköna sidan.
-8. Göra de olika undersidorna mer enhetliga.
+8. Göra de olika undersidorna mer enhetliga för att få bättre **repetition**.
 
 <br>
 Obs! Jag har nu implementerat punkterna ovan, förutom punkt 5.
