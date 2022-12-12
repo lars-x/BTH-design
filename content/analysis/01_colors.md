@@ -86,25 +86,25 @@ Resultat
 <td>Microsoft</td>
 <td style="background-color: rgb(23, 23, 23); color: rgb(255, 255, 255);">rgb(23, 23, 23)</td>
 <td style="background-color: rgb(23, 23, 23); color: rgb(255, 255, 255);">rgb(23, 23, 23)</td>
-<td style="background-color: rgb(255, 255, 255);">rgb(255, 255, 255)</td>
-<td style="background-color: rgb(0, 120, 212);">rgb(0, 120, 212)</td>
-<td style="background-color: rgb(242, 242, 242);">rgb(242, 242, 242)</td>
+<td style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">rgb(255, 255, 255)</td>
+<td style="background-color: rgb(0, 120, 212); color: rgb(0, 0, 0);">rgb(0, 120, 212)</td>
+<td style="background-color: rgb(242, 242, 242); color: rgb(0, 0, 0);">rgb(242, 242, 242)</td>
 </tr>
 <tr>
 <td>Google</td>
 <td style="background-color: rgb(60, 64, 67); color: rgb(255, 255, 255);">rgb(60, 64, 67)</td>
 <td style="background-color: rgb(95, 99, 104); color: rgb(255, 255, 255);">rgb(95, 99, 104)</td>
-<td style="background-color: rgb(255, 255, 255);">rgb(255, 255, 255)</td>
-<td style="background-color: rgb(26, 115, 232);">rgb(26, 115, 232)</td>
-<td style="background-color: rgb(248, 249, 250);">rgb(248, 249, 250)</td>
+<td style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">rgb(255, 255, 255)</td>
+<td style="background-color: rgb(26, 115, 232); color: rgb(0, 0, 0);">rgb(26, 115, 232)</td>
+<td style="background-color: rgb(248, 249, 250); color: rgb(0, 0, 0);;">rgb(248, 249, 250)</td>
 </tr>
 <tr>
 <td>Facebook</td>
 <td style="background-color: rgb(28, 43, 51); color: rgb(255, 255, 255);">rgb(28, 43, 51)</td>
 <td style="background-color: rgb(104, 120, 138); color: rgb(255, 255, 255);">rgb(104, 120, 138)</td>
-<td style="background-color: rgb(255, 255, 255);">rgb(255, 255, 255)</td>
-<td style="background-color: rgb(0, 130, 251)">rgb(0, 130, 251)</td>
-<td style="background-color: rgb(241, 244, 247);">rgb(241, 244, 247)</td>
+<td style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">rgb(255, 255, 255)</td>
+<td style="background-color: rgb(0, 130, 251); color: rgb(0, 0, 0);">rgb(0, 130, 251)</td>
+<td style="background-color: rgb(241, 244, 247); color: rgb(0, 0, 0);">rgb(241, 244, 247)</td>
 </tr>
 </table>
 <br>

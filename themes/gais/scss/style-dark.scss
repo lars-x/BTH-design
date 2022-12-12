@@ -35,6 +35,16 @@ body {
     height: 100%;
 }
 
+.rounded-rect a:link,
+.article-container a:link {
+    color: $link-color;
+}
+
+.rounded-rect a:visited,
+.article-container a:visited {
+    color: $visited-color;
+}
+
 @import 'typografy';
 @import 'placement';
 @import 'header';
@@ -46,3 +56,7 @@ body {
 @import 'landingpage-reports';
 @import 'landingpage-common';
 @import 'article';
+@import 'gallery';
+@import 'video';
+@import 'kmom05';
+@import 'kmom06';

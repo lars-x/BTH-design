@@ -6499,6 +6499,16 @@ body {
   height: 100%;
 }
 
+.rounded-rect a:link,
+.article-container a:link {
+  color: rgb(173, 215, 230);
+}
+
+.rounded-rect a:visited,
+.article-container a:visited {
+  color: rgb(242, 184, 77);
+}
+
 /* Typografy */
 body {
   font-family: "Roboto", sans-serif;
@@ -6511,7 +6521,7 @@ td,
 th,
 li,
 dd {
-  text-align: justify;
+  /* text-align: justify; */
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -6527,7 +6537,8 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
 }
 
 ol,
@@ -6815,4 +6826,121 @@ th {
 .article td:nth-child(1),
 th:nth-child(1) {
   text-align: left;
+}
+
+/* landingpage-technologies */
+.gallery {
+  margin: 0 auto 1rem;
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "p1 p2 p3" "p4 p5 p6" "p7 p8 p9";
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8" "p9";
+  }
+}
+.gallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.p4 {
+  grid-area: p4;
+}
+
+.p5 {
+  grid-area: p5;
+}
+
+.p6 {
+  grid-area: p6;
+}
+
+.p7 {
+  grid-area: p7;
+}
+
+.p8 {
+  grid-area: p8;
+}
+
+.p9 {
+  grid-area: p9;
+}
+
+.embed-container {
+  position: relative;
+  /* 272/640 */
+  padding-bottom: 42.5%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.kmom05 table {
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+
+.kmom05 th,
+td {
+  border: 1px solid #000;
+}
+
+.rounded-rect {
+  margin: 0 auto 1rem;
+  width: 90%;
+  max-width: 1200px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.rounded-rect img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title h1 {
+  color: rgb(255, 255, 148);
+}
+
+.rounded-rect h1,
+.rounded-rect h2,
+.rounded-rect h3,
+.rounded-rect h4,
+.aside h2,
+.article h1,
+.article h2,
+.article h3 {
+  color: rgb(255, 255, 148);
 }
